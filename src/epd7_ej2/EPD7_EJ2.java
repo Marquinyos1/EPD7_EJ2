@@ -16,6 +16,8 @@ public class EPD7_EJ2 {
     public static void main(String[] args) {
         Mundo m = new Mundo("HOLA MUNDO", 4);
         m.escribir();
+        Antimundo am = new Antimundo(5);
+        am.escribir();
     }
     
 }
