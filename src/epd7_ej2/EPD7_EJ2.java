@@ -14,7 +14,8 @@ public class EPD7_EJ2 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Mundo m = new Mundo("HOLA MUNDO", 4);
+        m.escribir();
     }
     
 }
